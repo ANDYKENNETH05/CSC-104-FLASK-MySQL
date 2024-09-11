@@ -1,0 +1,62 @@
+body {
+  font-family: "franklin Gothic Medium", "ariel Narrow", "Ariel", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: wheat;
+}
+
+.content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+}
+.content h1 {
+  color: rgb(108, 24, 243);
+}
+.content h4 {
+  color: #7bd317;
+}
+.content table {
+  width: 100%;
+  margin-top: 20%;
+  border-collapse: collapse;
+}
+.content table th, .content table td {
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.856);
+}
+.content table th th, .content table td th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+.content a {
+  display: inline-block;
+  padding: 0px 16px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: rgb(108, 24, 243);
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.content a :hover {
+  background-color: darkblue;
+}
+.content input {
+  padding: 10px;
+  margin: 5px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+.content btn_Add {
+  background-color: darkgreen;
+  color: #ffffff;
+  cursor: pointer;
+}
+.content btn_Add hover {
+  background-color: rgb(28, 230, 28);
+}/*# sourceMappingURL=styles.css.map */
