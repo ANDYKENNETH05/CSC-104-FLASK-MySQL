@@ -1,8 +1,8 @@
-
+// color variables
 $primary_color:rgb(108, 24, 243);
 $primary-hover-color:darkblue;
-$success-color:darkgreen;
-$success-color-hover:rgb(28, 230, 28);
+$success-color:lightgreen;
+$success-color-hover:green;
 $title-color:gray;
 $bg_color: wheat;
 
@@ -42,7 +42,7 @@ body{
 
         th,td{
             padding: 10px;
-            border: 1px solid rgba(255, 255, 255, 0.856);
+            border: 2px solid rgba(255, 255, 255, 0.856);
 
             th{
                 background-color: #f0f0f0;
